@@ -1,0 +1,93 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body{
+    width: 1080px;
+}
+
+#banner {
+    width: 80%;
+}
+
+#carrito {
+    width: 5%;
+    transform: translateY(-50px);
+    cursor: pointer;
+}
+
+#mensaje {
+    position: absolute;
+    left: 1050px;
+    top: 230px;
+    background-color: rgb(236, 238, 139);
+    border-radius: 20px;
+    padding: 10px;
+    visibility: hidden;
+}
+
+#buscador {
+    margin-left: 15px;
+    width: 40%;
+    float: left;
+}
+
+#buscador p{
+    margin-left: 150px;
+    margin-bottom: 20px;
+    color: red;
+    visibility: hidden;
+}
+
+#buscador input[type="search"] {
+    width: 90%;
+    height: 30px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+#buscador input[type="submit"] {
+    width: 180px;
+    margin-left: 18px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#hueco {
+    height: 150px;
+}
+
+.producto {
+    width: 30%;
+    position: absolute;
+    margin-left: 450px;
+    visibility: hidden;
+}
+
+#controles {
+    margin-left: 500px;
+    visibility: hidden;
+}
+
+#controles input[type="button"]{
+    display: block;
+    float: left;
+    width: 15px;
+}
+
+#controles #variableCantidad{
+    float: left;
+}
+
+#controles #cantidadStock {
+    float: left;
+}
+
+#controles input[type="submit"]{
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 30px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKEA</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <img id="banner" src="img/ikea.png" alt="imagen logo">
+    <img id="carrito" src="img/shopping-cart.png" alt="carrito">
+    <div id="mensaje">
+        articulo agregado correctamente
+    </div>
+    <section id="buscador">
+        <p id="codigoInexistente">El codigo no existe</p>
+        <input id="cuadroTexto" type="search" name="buscar codigo" placeholder="Introduzca su codigo">
+        <input id="botonEnviar" type="submit" value="Buscar"/>
+        <input id="botonCancelar" type="submit" value="Cancelar">
+    </section>
+
+    <div id="hueco">
+        <section class="producto" id="producto1">
+            <img src="img/pro1.png" alt="producto 1">
+            <p>PRODUCTO 1 Aqui un parrafo de descripción de el producto que esto vendiendo en el Ikea
+                PRECIO 2.50€
+            </p>
+        </section>
+    
+        <section class="producto" id="producto2">
+            <img src="img/pro2.png" alt="producto 1">
+            <p>PRODUCTO 2 Aqui un parrafo de descripción de el producto que esto vendiendo en el Ikea
+                PRECIO 50.00€
+            </p>
+        </section>
+    
+        <section class="producto" id="producto3">
+            <img src="img/pro3.png" alt="producto 1">
+            <p>PRODUCTO 3 Aqui un parrafo de descripción de el producto que esto vendiendo en el Ikea
+                PRECIO 25.95€
+            </p>
+        </section>
+    
+        <section class="producto" id="producto4">
+            <img src="img/pro4.png" alt="producto 1">
+            <p>PRODUCTO 4 Aqui un parrafo de descripción de el producto que esto vendiendo en el Ikea
+                PRECIO: 5.99€
+            </p>
+        </section>
+    </div>
+
+
+
+    <div id="controles">
+        <input id="botonMenos" type="button" value="-"/>
+        <p id="variableCantidad">1</p>
+        <input id="botonMas" type="button" value="+">
+        <p id="cantidadStock">Cantidad en stock:</p>
+        <p id="variableStock">X</p>
+
+        <input id="botonAgregar" type="submit" value="Agregar">
+        <input id="botonQuitar" type="submit" value="Quitar">  
+    </div>
+
+
+    
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
